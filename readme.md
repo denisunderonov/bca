@@ -1,33 +1,6 @@
 # Кафе с системой анализа использования ингредиентов в блюдах
 
-> Учебный проект по дисциплине «Проектирование бизнес-процессов и структур в веб-индустрии».  
-> Лабораторные работы №1–3.
-
-**Автор:** Андронов Денис Андреевич, группа 241-3210  
-**Университет:** Московский Политех  
-**Факультет:** Информационных технологий  
-**Кафедра:** «Инфокогнитивные технологии»  
-**Профиль:** Информатика и вычислительная техника (Веб-разработка)  
-**Преподаватели:** старший преподаватель Чернова В. М., Кулибаба И. В.  
-**Год:** 2026
-
----
-
-## Содержание
-
-- [О проекте](#о-проекте)
-- [Цели и задачи](#цели-и-задачи)
-- [Основные бизнес-процессы](#основные-бизнес-процессы)
-- [AS-IS / TO-BE](#as-is--to-be)
-- [Модели и схемы](#модели-и-схемы)
-- [Деревья функций](#деревья-функций)
-- [UML-модели](#uml-модели)
-- [Сбалансированная система показателей](#сбалансированная-система-показателей)
-- [Результаты проекта](#результаты-проекта)
-- [Структура репозитория](#структура-репозитория)
-- [Как подготовить изображения](#как-подготовить-изображения)
-
----
+> Проект «Проектирование бизнес-процессов и структур в веб-индустрии».  
 
 ## О проекте
 
@@ -86,90 +59,56 @@
 
 ## AS-IS / TO-BE
 
-| Процесс | AS-IS | TO-BE |
-|---|---|---|
-| Учёт ингредиентов | Повара вручную записывают продукты в журнал; менеджеры еженедельно сводят данные в Excel | Система автоматически списывает ингредиенты по рецепту; данные обновляются в реальном времени |
-| Формирование отчётов | Ручной сбор данных, отчёты в Excel | Ежедневные отчёты о расходе; анализ связи популярности блюд и затрат |
-| Планирование закупок | Субъективные оценки, риск избытка или дефицита | Рекомендации по закупкам на основе прогноза спроса и текущих остатков |
-| Обслуживание клиента | Бумажные бланки, устный заказ, ручная передача на кухню | Электронные заказы, POS-система, KDS, AI-прогнозирование |
-
-**Развитие после внедрения:**
-
-- мобильное приложение для поваров с мгновенными корректировками рецептов;
-- интеграция с поставщиками для автоматических заказов;
-- анализ сезонности спроса для оптимизации меню.
-
----
 
 ## Модели и схемы
 
 ### Структурная схема организации
 
-![Структурная схема организации](images/org-structure-lr1.png)
+<img width="936" height="560" alt="image" src="https://github.com/user-attachments/assets/a67a7a95-74fd-469f-829e-1b1e90ec230c" />
 
 ### Схема организационной структуры
 
-![Схема организационной структуры](images/org-chart-lr1.png)
+<img width="936" height="482" alt="image" src="https://github.com/user-attachments/assets/1fbd784b-d277-4013-86ce-8a084552dfb2" />
 
 ### IDEF0 AS-IS
 
-![Контекстная диаграмма IDEF0 AS-IS](images/idef0-as-is-context-lr1.png)
+<img width="522" height="369" alt="image" src="https://github.com/user-attachments/assets/5a20b8f7-99ce-4283-986d-669d644f54c9" />
 
-![Декомпозиция IDEF0 AS-IS](images/idef0-as-is-decomposition-lr1.png)
+<img width="624" height="383" alt="image" src="https://github.com/user-attachments/assets/0965c4a0-8f1b-48ff-87a7-a397e065c697" />
 
 ### IDEF0 TO-BE
 
-![Контекстная диаграмма IDEF0 TO-BE](images/idef0-to-be-context-lr3.png)
+<img width="497" height="350" alt="image" src="https://github.com/user-attachments/assets/ef4f46b7-4142-492f-8b5c-b755082c0832" />
 
-![Декомпозиция IDEF0 TO-BE](images/idef0-to-be-decomposition-lr3.png)
+<img width="606" height="365" alt="image" src="https://github.com/user-attachments/assets/b96dafc4-975b-4743-a08f-207340ce394b" />
 
 ### IDEF3
 
-![Диаграмма IDEF3](images/idef3-lr1.png)
+<img width="960" height="333" alt="image" src="https://github.com/user-attachments/assets/20d109ec-3b3f-4ae6-8734-e22cd0216ab2" />
 
 ### DFD
 
-![Диаграмма потоков данных](images/dfd-lr1.png)
+<img width="592" height="444" alt="image" src="https://github.com/user-attachments/assets/9acdef0d-a1c7-45b5-8e90-2f7bf85dcc5d" />
 
 ### BPMN
 
-![BPMN схема оформления заказа](images/bpmn-order-lr3.png)
+<img width="664" height="396" alt="image" src="https://github.com/user-attachments/assets/65f403cb-75b8-4e59-8dba-f282305cb191" />
 
 ---
 
 ## Деревья функций
 
-### Дерево функций бизнес-процесса
+<img width="1070" height="712" alt="image" src="https://github.com/user-attachments/assets/3bd92529-9c60-4385-86b5-68fcdf35e895" />
 
-![Дерево функций БП](images/function-tree-lr2.png)
-
-### Процессно-ориентированное функциональное дерево
-
-![Процессно-ориентированное функциональное дерево](images/process-function-tree-lr2.png)
-
-### Объектно-ориентированное функциональное дерево
-
-![Объектно-ориентированное функциональное дерево](images/object-function-tree-lr2.png)
-
-### Операционно-ориентированное функциональное дерево
-
-![Операционно-ориентированное функциональное дерево](images/operation-function-tree-lr2.png)
-
----
 
 ## UML-модели
 
-### Use Case: посетитель
+<img width="509" height="394" alt="image" src="https://github.com/user-attachments/assets/5fb08276-9ffa-4465-8d7f-a2311dde65c5" />
 
-![UML Use Case: посетитель](images/use-case-customer-lr2.png)
-
-### Use Case: администратор
-
-![UML Use Case: администратор](images/use-case-admin-lr2.png)
 
 ### Диаграмма классов
 
-![UML Class Diagram](images/class-diagram-lr2.png)
+<img width="545" height="409" alt="image" src="https://github.com/user-attachments/assets/8ba4b0c6-a37a-4c9b-b8bb-b3028253ec31" />
 
 **Основные классы:**
 
@@ -188,9 +127,7 @@
 
 ## Сбалансированная система показателей
 
-![ССП](images/bsc-lr3.png)
-
-![Визуальное представление ССП](images/bsc-visual-lr3.png)
+<img width="526" height="395" alt="image" src="https://github.com/user-attachments/assets/2ddde5a1-5a20-4bc3-bac9-6fd01a0c0b85" />
 
 ### Финансы
 
@@ -221,76 +158,3 @@
 - **Инициатива:** регулярные тренинги по работе с системами учёта и аналитики.
 
 ---
-
-## Результаты проекта
-
-- Автоматическое списание ингредиентов по рецептам устраняет до 95% ошибок учёта.
-- Прогнозирование закупок на основе AI-аналитики снижает риски нехватки ресурсов.
-- Внедрение ССП определяет KPI по финансам, клиентам, процессам и обучению.
-- Система обеспечивает прозрачность, контроль и постоянное улучшение процессов.
-- Перспективы: облачная синхронизация для сетевых кафе, IoT-датчики для контроля сроков годности, интеграция с государственными системами.
-
----
-
-## Структура репозитория
-
-    cafe-ingredient-analytics/
-    ├── README.md
-    ├── docs/
-    │   ├── lab1.md
-    │   ├── lab2.md
-    │   └── lab3.md
-    ├── images/
-    │   ├── org-structure-lr1.png
-    │   ├── org-chart-lr1.png
-    │   ├── idef0-as-is-context-lr1.png
-    │   ├── idef0-as-is-decomposition-lr1.png
-    │   ├── idef0-to-be-context-lr3.png
-    │   ├── idef0-to-be-decomposition-lr3.png
-    │   ├── idef3-lr1.png
-    │   ├── dfd-lr1.png
-    │   ├── function-tree-lr2.png
-    │   ├── process-function-tree-lr2.png
-    │   ├── object-function-tree-lr2.png
-    │   ├── operation-function-tree-lr2.png
-    │   ├── use-case-customer-lr2.png
-    │   ├── use-case-admin-lr2.png
-    │   ├── class-diagram-lr2.png
-    │   ├── bpmn-order-lr3.png
-    │   ├── bsc-lr3.png
-    │   └── bsc-visual-lr3.png
-    └── diagrams/
-        └── source/
-
----
-
-## Как подготовить изображения
-
-Экспортируйте изображения из исходных документов и презентаций в папку `images/` под следующими именами:
-
-| Файл | Источник | Что изображено |
-|---|---|---|
-| `org-structure-lr1.png` | ЛР1 / PPTX | Структурная схема организации |
-| `org-chart-lr1.png` | ЛР1, рис. 2 / PPTX | Схема организационной структуры |
-| `idef0-as-is-context-lr1.png` | ЛР1, рис. 3 / PPTX | Контекстная диаграмма IDEF0 AS-IS |
-| `idef0-as-is-decomposition-lr1.png` | ЛР1, рис. 4 / PPTX | Декомпозиция IDEF0 AS-IS |
-| `idef0-to-be-context-lr3.png` | ЛР3, рис. 1 / PPTX | Контекстная диаграмма IDEF0 TO-BE |
-| `idef0-to-be-decomposition-lr3.png` | ЛР3, рис. 2 / PPTX | Декомпозиция IDEF0 TO-BE |
-| `idef3-lr1.png` | ЛР1, рис. 7 / PPTX | Диаграмма IDEF3 |
-| `dfd-lr1.png` | ЛР1 / PPTX | Диаграмма потоков данных |
-| `function-tree-lr2.png` | ЛР2, рис. 2 | Дерево функций БП |
-| `process-function-tree-lr2.png` | ЛР2, рис. 3 | Процессно-ориентированное дерево |
-| `object-function-tree-lr2.png` | ЛР2, рис. 4 | Объектно-ориентированное дерево |
-| `operation-function-tree-lr2.png` | ЛР2, рис. 5 | Операционно-ориентированное дерево |
-| `use-case-customer-lr2.png` | ЛР2 | Use Case: посетитель |
-| `use-case-admin-lr2.png` | ЛР2 | Use Case: администратор |
-| `class-diagram-lr2.png` | ЛР2 | Диаграмма классов |
-| `bpmn-order-lr3.png` | ЛР3, рис. 3 | BPMN-схема оформления заказа |
-| `bsc-lr3.png` | ЛР3, рис. 3 | Сбалансированная система показателей |
-| `bsc-visual-lr3.png` | ЛР3 | Визуальное представление ССП |
-
----
-
-## Лицензия
-
-Учебный проект. Материалы предназначены для демонстрации результатов лабораторных работ по дисциплине «Проектирование бизнес-процессов и структур в веб-индустрии».
